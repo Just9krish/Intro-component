@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Colors */
+
+    /* Primary */
+
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    /* Accent */
+
+    --Blue: hsl(248, 32%, 49%);
+
+    /* Neutral */
+
+    --Dark-Blue: hsl(249, 10%, 26%);
+    --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--Red);
+    color: #fff;
+    max-width: max-content;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3.75em 1.25em;
+}
+
+.landing__text {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.try__text {
+    margin-top: 3.125em;
+    padding: 0.125em 1.875em;
+    text-align: center;
+    background-color: var(--Blue);
+    box-shadow: 0px 5px rgb(0 0 0 / 0.1);
+    border-radius: 0.625em;
+}
+
+.form {
+    margin-top: 1.25em;
+    padding: 2.5em 1.25em;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 7px rgb(0 0 0 / 0.2);
+    border-radius: 0.625em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.25em;
+}
+
+input {
+    padding: 0.9375em 7.5em 0.9375em 1.25em;
+    border: 2px solid var(--Grayish-Blue);
+    border-radius: .3125em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-weight: 600;
+}
+
+button {
+    background-color: var(--Green);
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1.25em 4.0625em;
+    box-shadow: 0px 5px rgba(44, 165, 113, 0.9);
+    border-radius: 0.3125em;
+    margin-top: 1.25em;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.terms {
+    color: var(--Grayish-Blue);
+    font-size: 0.8125rem;
+    padding: 0.3125em 1.5625em 0 1.875em;
+}
+
+.terms-link {
+    text-decoration: none;
+    color: var(--Red);
+}
+
+/* Media quiries */
+
+@media (min-width: 520px) {
+    .main {
+        margin: 1.25em 5em;
+    }
+}
+
+@media (min-width : 820px) {
+    .main {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .landing__text {
+        text-align: left;
+        margin-right: 3.125em;
+    }
+}
+
+@media (min-width : 1020px) {
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .main {
+        margin: 1.25em 9.375em;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+}
