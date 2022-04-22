@@ -45,12 +45,16 @@
 
         <div class="form">
           <form action="#" >
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="Enter Address">
-            <input type="password" placeholder="Password">
+            <input type="text" id="fName" placeholder="First Name">
+            <p id="fNameText" style="visibility: hidden;">First name cannot be empty!</p>
+            <input type="text" id="lName" placeholder="Last Name">
+            <p id="lNameText" style="visibility: hidden;">Last name cannot be empty!</p>
+            <input type="email" id="email" placeholder="Enter Address">
+            <p id="emailText" style="visibility: hidden;">Email cannot be empty!</p>
+            <input type="password" id="password" placeholder="Password">
+            <p id="passwordText" style="visibility: hidden;">Password cannot be empty!</p>
           </form>
-          <button>Claim your free trial</button>
+          <button id="btn">Claim your free trial</button>
           <p class="terms">By clicking the button, you are agreeing to our <a class="terms-link" target="_blank" href="">Terms and Services</a></p>
         </div>
       </div>

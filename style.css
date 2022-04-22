@@ -68,7 +68,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 1.25em;
+    /* gap: 1.25em; */
 }
 
 input {
@@ -81,6 +81,16 @@ input[type="text"],
 input[type="email"],
 input[type="password"] {
     font-weight: 600;
+}
+
+form p {
+    color: var(--Red);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 0;
+    font-style: italic;
+    /* visibility: hidden; */
 }
 
 button {
