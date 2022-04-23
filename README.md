@@ -89,6 +89,6 @@ if (email == "") {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Just9krish](https://www.frontendmentor.io/profile/Just9krish)
+- Instagram - [@Just9krish](https://www.instagram.com/just9krish/)
+- Linkedin - [@rvamit2648](https://linkedin.com/in/amit-vishwakarma-bb54b222a)
