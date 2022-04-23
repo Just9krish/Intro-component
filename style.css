@@ -83,6 +83,16 @@ input[type="password"] {
     font-weight: 600;
 }
 
+input:hover {
+    border-color: var(--Blue);
+}
+
+.icon-error {
+    background: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 99% center;
+}
+
 form p {
     color: var(--Red);
     font-size: 0.75rem;
@@ -109,7 +119,9 @@ button {
 
 button:hover {
     cursor: pointer;
-    opacity: .75;
+    background-color: var(--Blue);
+    box-shadow: 0 5px hsl(249, 10%, 26%);
+    transition: all 0.24s ease;
 }
 
 .terms {
