@@ -135,6 +135,10 @@ button:hover {
     color: var(--Red);
 }
 
+.terms-link:hover{
+    text-decoration: underline;
+}
+
 /* Media quiries */
 
 @media (min-width: 520px) {
